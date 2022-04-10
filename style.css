@@ -134,3 +134,44 @@ img {
   flex: 1 1 160px;
   margin: 0 10px;
 }
+
+.produtos {
+  max-width: var(--max-width);
+  margin: 60px 0;
+}
+
+.produtos h1 {
+  font-size: 3em;
+  margin: 0 10px 60px
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.produtos-item {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.produtos-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  background-color: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.purple {
+  border-top: 8px solid #ae81ff;
+}
+
+.pink {
+  border-top: 8px solid #f9265e;
+}
+
+.blue {
+  border-top: 8px solid #66d0eb;
+}
