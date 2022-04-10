@@ -39,12 +39,17 @@ img {
   max-width: var(--max-width);
   margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   padding-top: 10px;
 }
 
 .superinfo p, .superinfo a {
+  text-align: center;
+  flex-basis: auto;
+  flex-grow: 1;
   margin: 0 10px 10px;
+  font-size: 1em;
 }
 
 .superinfo a {
@@ -78,15 +83,54 @@ img {
 .menu-nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2px;
 }
 
 .menu-nav a {
   display: block;
   font-size: 1.25em;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .menu-nav a:hover {
   color: #122ab2;
+}
+
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.sobre {
+  display: flex;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+.sobre-info p {
+  font-size: 1.25em;
+  margin-bottom: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
 }
